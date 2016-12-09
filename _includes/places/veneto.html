@@ -1,0 +1,108 @@
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+function initialize_map() {
+        var mapOptions = {
+          zoom: 14,
+          center: new google.maps.LatLng(45.4368799, 10.9720487),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+                                      mapOptions);
+
+		var stazione_portanuova = new google.maps.Marker({
+            position: new google.maps.LatLng(45.428671, 10.982607),
+            map: map,
+            icon: 'img/marker_trasporti.png',
+			title:"Stazione Verona Porta Nuova"
+        });
+
+         var I3P = new google.maps.Marker({
+            position: new google.maps.LatLng(45.4399785, 10.9697421),
+            map: map,
+            icon: 'img/marker_i3p.png',
+			title:"Hotel San Marco"
+        });
+
+
+
+      }
+</script>
+
+
+
+
+<!-- Start: Footer -->
+      <div class="footer">
+      	<div class="container">
+	      	<div class="row">
+	      		<div class="col-md-6 map"><div id="map_canvas"></div></div>
+	      		<div class="col-md-6">
+	      			<dl>
+						<dt class="event_location"><h3>Event location</h3></dt>
+						<dd class="event_location">
+							<a href="http://www.sanmarco.vr.it/" target="_blank">Hotel San Marco</a><br>
+							Via Longhena, 42<br>
+							Verona, Italy
+						</dd>
+						<h3>Accommodations</h3>
+						<p>
+							<a href="http://www.sanmarco.vr.it/" target="_blank">Hotel San Marco</a>
+							Via Longhena, 42<br>
+							37138 Verona — Italy<br>
+							045569011<br>
+							045572299<br>
+							<a href="http://www.sanmarco.vr.it/" target="_blank">http://www.sanmarco.vr.it/</a><br>
+							<br>
+							The conference hotel offers discounted rates on single and double bedrooms.
+						</p>
+					</dl>
+	      		</div>
+	      	</div>
+      	</div>
+      	<div class="container-fluid">
+        	<div class="row" id="location">
+          
+            
+				<div class="col-md-4">
+					<h3>By car</h3>
+					<p><strong>From A4 Verona Sud Exit</strong>: Follow the direction to Fiera - Verona Centro. Drive along Viale delle Nazioni. Continue along Viale del Lavoro and Viale del Piave. Once you arrive in Piazzale Porta Nuova, turn left. Drive along Viale Luciano Dal Cero. Continue towards Porta Palio. At the roundabout go straight along Viale Colonnello Galliano. At the first traffic light turn left into Via San Marco. Drive straight along Via San Marco to the Hotel.</p>
+		
+				</div>
+		
+				<div class="col-md-4">
+					<h3>By train</h3>
+					<p>
+						<strong>From Verona Porta Nuova station (Frecciargento)</strong>: Reaching the hotel from the railway station is quite easy, you only need to take bus number 11 or 95 at platform “C” direction “CHIEVO” (here is the time schedule for bus #11 and bus #95). The run will be from “STAZIONE PORTA NUOVA” to “VIA LONGHENA 40“, which is really near the hotel; if you miss that stop, step down at “VIALE MANZONI 21/B” that is 300m after.<br>
+						You can also get to the venue by taxi. They are near the exit, on the right.
+					<br/>
+					<br/>
+					</p>
+				</div>
+		
+				<div class="col-md-4">
+					<h3>By plane</h3>
+					<p>
+						<strong>From Verona Villafranca Airport</strong>: take the <a href="http://www.aeroportoverona.it/en/aerobus_t2" target="_blank">Aerobus service</a> to Verona Porta Nuova station just outside the arrivals gate (runs every 20 minutes from 6:30am). Once at the train station follow directions in the "By train" section.
+					</p>
+				</div>
+				
+			</div>
+              
+          </div>
+          
+        <div class="container-fluid footer-credit">
+        	<div class="row">
+          <div class="col-md-6 col-sm-6">
+            <p> &copy; 2012-2016 GrUSP. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 col-sm-6"> 
+            <ul class="footer-menu">
+              <li><a href="http://www.grusp.org" title="">About GrUSP</a></li>
+              <li><a href="http://www.fevr.it" title="">About FEVR</a></li>
+              <li><a href="mailto:info@grusp.org" title="">Contact us</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Footer -->

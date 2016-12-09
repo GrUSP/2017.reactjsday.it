@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="it"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="it"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="it"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <title>{{ page.ttl }} - {{ page.conf_data }}</title>
+
+  <!-- Responsive and mobile friendly stuff -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+  <meta property="og:url" content="2015.reactjsday.it" />
+  <meta property="og:title" content="React.js Day {{ page.conf_data }} - Italian Conference" />
+  <meta property="og:image" content="http://2015.reactjsday.it/img/confs/reactjs/reactjsday-social.png" />
+
+
+  <link href='http://fonts.googleapis.com/css?family=Exo:200,900,700,400|Pacifico' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/grid_12_percent.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/tooltip.css">
+
+  <style type="text/css">
+    body {  }
+  </style>
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie7_8.css">
+  <![endif]-->
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onload="initialize_map()">
+
+  <div id="wrapper">
+    <div id="site_wrapper">
+      <div id="main_navigation">
+        <a name="top"></a>
+        <nav id="site_nav">
+          <ul class="container">
+            <li><a href="#top" title="{{ page.title }}">{{ page.title }}</a></li>
+            <li><a href="#info" title="">The conference</a></li>
+            {% if page.cfp %} <li><a href="#cfp" title="">Call for papers</a></li> {% endif %}
+            {% if page.speakers %} <li><a href="#programma" title="">Schedule</a></li> {% endif %}
+            {% if page.tickets %} <li><a href="#tickets" title="">Register</a></li> {% endif %}
+            {% if page.where %}<li><a href="#location" title="">Location</a></li>{% endif %}
+            <!--li><a href="#workshop" title="">Workshops</a></li-->
+            <li><a href="#sponsor" title="">Sponsors</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <header id="site_header" class="container">
+        <div class="grusp_header">
+          <p class="organizer"><a id="logo_grusp" class="organizer_logo" href="http://www.grusp.org/"><img src="/img/logo_grusp.png" alt="GrUSP" width="140" height="140" /><span>GrUSP association (Gruppo Utenti Sviluppatori PHP Italiani)</span></a>
+
+          <em class="plus"><img src="/img/bg_plus.png" alt="bg_plus" width="12" height="12" /></em>
+
+          <a id="fevr" class="organizer_logo" href="http://www.fevr.it/"><img src="/img/confs/reactjs/fevr-logo.png" alt="FEVR - Frontenders Verona" height="80"/><span>FEVR - Frontenders Verona</span></a></p>
+
+          <h4>present</h4>
+        </div>
+
+        <div class="event_title">
+          <div class="event_logo column_11">
+            <h1 id="fittext1"><img src="/img/confs/reactjs/logo-white.svg" alt="React.js" /> React.js <span style="font-weight: normal">Day</span></h1>
+            <h2 id="fittext2">{{ page.conf_data }}</h2>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+
+        <div class="share">
+          <h4>Share</h4>
+          <div class="addthis_wrapper">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style ">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_counter addthis_pill_style"></a>
+            </div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50ac9a3237717dfe"></script>
+            <!-- AddThis Button END -->
+          </div>
+        </div>
+        <div class="separator"></div>
+
+      </header>
+
+      {{ content }}
+
+      <footer id="site_footer">
+        <div class="container group">
+          <div class="ftr_info">
+            &copy; 2012-2015 GrUSP. All rights reserved.
+            <ul>
+              <li><a href="http://www.grusp.org" title="">About GrUSP</a></li>
+              <!--li><a href="#" title="">Privacy policy</a></li-->
+              <li><a href="mailto:info@grusp.org" title="">Contact us</a></li>
+            </ul>
+          </div>
+
+          <a id="back_top" href="#top" title="">Top</a>
+        </div>
+      </footer>
+
+    </div> <!-- Closes #wrapper -->
+  </div><!-- Closes #site_wrapper -->
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/jquery.tooltip.js"></script>
+  <script type="text/javascript">
+    $("#fittext1").fitText(1.0, {minFontSize: 40});
+    $("#fittext2").fitText(1.6);
+    //$("#fittext3").fitText(1.1, { minFontSize: 50, maxFontSize: '75px' });
+    $(document).on('click', 'a[rel="tooltip"]', function (e) {
+      e.preventDefault();
+    });
+  </script>
+
+
+<script src="js/cookiechoices.js"></script>
+<script>
+  jQuery(function () {
+    cookieChoices.showCookieConsentBar('Questo sito raccoglie dati statistici anonimi sulla navigazione rispettando la privacy dei tuoi dati personali e secondo le norme previste dalla legge. Continuando a navigare su questo sito, cliccando sui link al suo interno o semplicemente scrollando la pagina verso il basso, accetti il servizio e gli stessi cookie.',
+      'ok', '', 'http://example.com');
+  });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3559597-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
