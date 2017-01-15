@@ -87,10 +87,12 @@ a:hover, a:focus, a:active, a:visited {
     -ms-transform-origin: 100% 50%;
     -o-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 .side-menu ul li a:hover span.menu-title {
-    opacity: 1;
+    /*opacity: 1;*/
+    background-color: #337ab7;
+    color: #fff;
 }
 .side-menu ul li a span.dot {
     position: relative;
@@ -109,15 +111,17 @@ a:hover, a:focus, a:active, a:visited {
 
 .hero-header {
 	/*background: #016cc7;*/
-	background: url(../img/verona-view.jpg) no-repeat center center;
+	background: url(../img/background2.jpg) no-repeat center center;
 	min-height: 600px;
 	padding: 20px 5em 5em 5em;
 	color: #fff;
+	background-size: cover;
+	position: relative;
 }
 .hero-header a {
     color: #fff;
     font-weight: bold;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
@@ -332,6 +336,9 @@ ul.footer-menu li a:hover {
         text-align: center;
         margin-top: 30px;
     }
+    .side-menu ul li a span.menu-title {
+     opacity: 0;   
+    }
 }
 
 
@@ -348,6 +355,9 @@ ul.footer-menu li a:hover {
     }
     ul.footer-menu {
         margin-top: 0;
+    }
+    .side-menu ul li a span.menu-title {
+     opacity: 0;   
     }
 }
 
@@ -389,4 +399,18 @@ ul.footer-menu li a:hover {
 .sponsors.bronze {
 	color: #CD7F32;
     font-weight: bold;
+}
+
+
+.carousel-control {
+    background: none !important;
+}
+.hero-bkg {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
 }

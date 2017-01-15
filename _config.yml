@@ -3,4 +3,6 @@ highlighter: rouge
 permalink: /blog/:title
 rdiscount:
   extensions: [smart]
-conf_data: "Verona, Italy - October 7, 2016"
+conf_data: "Verona, Italy - October 6, 2017"
+
+
