@@ -1,31 +1,20 @@
 ---
-layout: react2
-title: ReactJS Day
-ttl: ReactJS Day
-conf_data: "VERONA - OCTOBER 6, 2017"
-cfp: true
-cfp_url: https://docs.google.com/forms/d/e/1FAIpQLSd0xm7YP_ASTLYR10OVvvIIdvDiSGOXy48SCnyJbZiqvXQWvA/viewform
-speakers: false
-cfs: true
-where: veneto
-tickets: true
-tickets_url: //eventbrite.com/tickets-external?eid=30822247171&ref=etckt
+title: Welcome
 ---
 
+{% comment %}
+  = = = = = = = = = = = = = =
+  Please check page contents
+  in its _includes
+  folder: _includes/index
+  = = = = = = = = = = = = = =
+{% endcomment %}
 
-{% include section-contents.html %}
-
-{% if page.cfp %} {% include section-cfp.html %} {% endif %}
-{% if page.speakers %} {% include section-speakers.html %} {% endif %}
-{% if page.tickets %} {% include section-tickets.html %} {% endif %}
-{% include section-lastyear.html %}
-
-{% include section-sponsors.html %}
-
-
-{% if page.where %}
-{% capture place %}{{'places/'}}{{page.where}}{{'.html'}}{% endcapture %}
-
-{% include {{place}} %}
-{% endif %}
-
+{% include index/intro.html %}
+{% include index/conf-infos.html %}
+{% include index/speakers.html %}
+{% include index/conf-city-faenza.html %}
+{% include index/venue.html %}
+{% include index/follow-us.html %}
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}
