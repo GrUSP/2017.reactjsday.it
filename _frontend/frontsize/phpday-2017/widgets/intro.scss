@@ -10,6 +10,12 @@
     height: auto !important;
   }
 
+  @include modifier ('phpday') {
+    background-color: $color-background-info;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
   @include media ('<mobile-large') {
     height: 250px;
     margin-top: 50px;

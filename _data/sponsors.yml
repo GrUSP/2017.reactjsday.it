@@ -2,7 +2,7 @@
 # img/sponsors/file.jpg
 # img/sponsors/guide.pdf
 
-pdf: 
+pdf: grusp_2017.pdf
 call_for_sponsor: true
 
 main:
@@ -11,7 +11,6 @@ main:
     - 1 dedicated session (30 mins max)
     - Access to opt-in attendees list
     - One direct email marketing campaign
-    - Your logo on conference programme
     - Your logo on conference rollups
     - Your own rollups in two rooms
     - Stand (table 2m x 1m)
@@ -20,85 +19,73 @@ main:
     - 5 tickets with 50% discount
   max: 1
   list:
-    -
-      url: http://www.ideato.it?utm_source=cssday2017
-      image: ideato.svg
 
 diamond:
   price: € 5,000
   offer:
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
-    - Your logo on conference programme
+    - 1 dedicated session (30 mins max)
+    - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollups in two rooms
     - Stand (table 2m x 1m)
     - Your own flyer and/or gadget in folder
-    - 5 free tickets
-    - 5 tickets with 50% discount
-  max: 0
-
+    - 2 free tickets
+    - 5 tickets with 20% discount
+  max: 2
+  list:
 
 platinum:
   price: € 3,000
   offer:
-    - 1 dedicated session (30 mins max)
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
-    - Your logo on conference programme
+    - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollups in two rooms
-    - Stand (table 2m x 1m)
-    - 5 tickets with 50% discount
-  max: 0
+    - Your own rollup in one room (of your choice)
+    - Stand (table 1m x 1m)
+    - Your own flyer and/or gadget in folder
+    - 1 free ticket
+    - 5 tickets with 15% discount
+  max: 4
   list:
-    - 
-      url: http://www.kerning.it
-      image: kerning.svg
     -
-      url: http://www.jsday.it
-      image: jsday.svg
+      url: http://www.ideato.it/?utm_source=phpday
+      image: ideato.svg
 
 gold:
   price: € 1,000
   offer:
-    - 1 dedicated session (30 mins max)
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
-    - Your logo on conference programme
+    - Your logo on conference website
     - Your logo on conference rollups
-    - 5 tickets with 50% discount
-  max: 0
+    - Your own rollup in one room (chosen by the organization)
+    - Your own flyer and/or gadget in folder
+    - 3 tickets with 15% discount
+  max: 8
   list:
     -
-      url: https://www.pixartprinting.it/?utm_source=cssday2017
-      image: s-pixartprinting.png
-      
+      url: http://www.avanscoperta.it/?utm_source=phpday
+      image: avanscoperta.svg
+    -
+      url: http://www.madisoft.it/?utm_source=phpday
+      image: madisoft.svg
+
 silver:
   price: € 500
   offer:
-    - 1 dedicated session (30 mins max)
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
-    - Your logo on conference programme
-    - 5 tickets with 50% discount
-  max: 0
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own flyer and/or gadget in folder (provided by you)
+    - 3 tickets with 10% discount
+  max: 4
   list:
     -
-      url: https://www.bitbull.it?utm_source=cssday2017
-      image: bitbull.svg
-
+      url: http://www.neen.it/?utm_source=phpday
+      image: neen.svg
+    -
+      url: https://www.siteground.it/?utm_source=phpday
+      image: siteground.svg
 
 bronze:
   price: € 300
   offer:
-    - Your logo on conference programme
-    - 2 tickets with 50% discount
+    - Your logo on conference website
+    - 2 tickets with 10% discount
   max: 8
-  list:
-    -
-      url: http://antreem.com?utm_source=cssday2017
-      image: antreem.svg
-    - 
-      url: https://milanofrontend.it
-      image: mfm.svg

@@ -1,5 +1,5 @@
 {
-  "name": "cssday",
+  "name": "phpday",
   "version": "0.0.1",
   "description": "Conference site",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "cp ./node_modules/dustman/gulpfile.js .",
-    "dev": "./node_modules/.bin/gulp -S --config dustman-cssday.yml watch & jekyll serve"
+    "dev": "./node_modules/.bin/gulp -S --config dustman-phpday.yml watch & jekyll serve"
   },
   "repository": {
     "type": "git",

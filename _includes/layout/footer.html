@@ -25,24 +25,28 @@
         <div class="footer__row">
           <div class="footer__row-column">
             <div class="footer__nav">
-              <div class="footer__nav-item">
-                <a href="{{ site.baseurl }}/schedule.html" class="button button--footer button--left">Schedule</a>
-              </div>
+              {% if site.data.conference.schedule_available %}
+                <div class="footer__nav-item">
+                  <a href="{{ site.baseurl }}/schedule.html" class="button button--footer button--left">Schedule</a>
+                </div>
+              {% endif %}
               <div class="footer__nav-item">
                 {% if site.data.tickets.sold_out %}
                   <div class="button button--left button--footer button--sold-out">
                     Tickets sold out
                   </div>
                 {% else %}
-                  <a href="{{ site.data.tickets.url }}" class="button button--footer button--left">Registrati</a>
+                  <a href="{{ site.data.tickets.url }}" class="button button--footer button--left">Tickets</a>
                 {% endif %}
               </div>
-              <!--div class="footer__nav-item">
-                <a href="{{ site.baseurl }}/sponsor.html" class="button button--footer button--left">Sponsor</a>
-              </div-->
               <div class="footer__nav-item">
-                <a href="{{ site.baseurl }}/talks.html" class="button button--footer button--left">Talks</a>
+                <a href="{{ site.baseurl }}/sponsor.html" class="button button--footer button--left">Sponsor</a>
               </div>
+              {% if site.data.conference.talks_available %}
+                <div class="footer__nav-item">
+                  <a href="{{ site.baseurl }}/talks.html" class="button button--footer button--left">Talks</a>
+                </div>
+              {% endif %}
             </div>
           </div>
           <div class="footer__row-column">
@@ -51,10 +55,10 @@
                 <a href="{{ site.baseurl }}/#newsletter" class="button button--footer button--left">Newsletter</a>
               </div>
               <div class="footer__nav-item">
-                <a href="{{ site.baseurl }}/#venue" class="button button--footer button--left">Venue</a>
+                <a href="{{ site.baseurl }}/venue.html" class="button button--footer button--left">Venue</a>
               </div>
               <div class="footer__nav-item">
-                <a href="http://www.kerning.it" class="button button--footer button--left">Kerning</a>
+                <a href="http://www.jsday.it" class="button button--footer button--left">JSday</a>
               </div>
             </div>
           </div>
@@ -62,12 +66,6 @@
         <div class="footer__socials">
           {% if site.data.social.facebook %}
             <a href="{{ site.data.social.facebook }}" class="social social--footer icon-facebook"></a>
-          {% endif %}
-          {% if site.data.social.flickr %}
-            <a href="{{ site.data.social.flickr }}" class="social social--footer icon-flickr"></a>
-          {% endif %}
-          {% if site.data.social.gplus %}
-            <a href="{{ site.data.social.gplus }}" class="social social--footer icon-gplus"></a>
           {% endif %}
           {% if site.data.social.twitter %}
             <a href="{{ site.data.social.twitter }}" class="social social--footer icon-twitter"></a>
@@ -86,7 +84,7 @@
         </a>
         <div class="footer__grusp-footer">
           <p>
-            CSSday © by <a href="http://grusp.org">GrUSP</a> and it's amazing <a href="#">Staff</a>
+            phpDay and jsDay are © by <a href="http://grusp.org">GrUSP</a> and it's amazing <a href="#">Staff</a>
           </p>
           <p>
             Contact us to <a href="mailto:info@grusp.org">info@grusp.org</a>
@@ -99,3 +97,6 @@
     </div>
   </div>
 </footer>
+
+<!-- Load media partners -->
+<script src="//grusp.org/helpers/2017/new.js"></script>
