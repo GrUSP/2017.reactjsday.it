@@ -46,9 +46,6 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
-    -
-      url: http://www.ideato.it/?utm_source=phpday
-      image: ideato.svg
 
 gold:
   price: € 1,000
@@ -61,11 +58,8 @@ gold:
   max: 8
   list:
     -
-      url: http://www.avanscoperta.it/?utm_source=phpday
-      image: avanscoperta.svg
-    -
-      url: http://www.madisoft.it/?utm_source=phpday
-      image: madisoft.svg
+      url: https://www.workwave.com/
+      image: sponsor_workwave.jpg
 
 silver:
   price: € 500
@@ -77,11 +71,11 @@ silver:
   max: 4
   list:
     -
-      url: http://www.neen.it/?utm_source=phpday
-      image: neen.svg
+      url: http://www.ideato.it?utm_source=reactjsday
+      image: ideato.svg
     -
-      url: https://www.siteground.it/?utm_source=phpday
-      image: siteground.svg
+      url: http://www.jsday.it?utm_source=reactjsday
+      image: sponsor_jsday.png
 
 bronze:
   price: € 300

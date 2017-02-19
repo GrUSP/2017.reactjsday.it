@@ -2,58 +2,9 @@
 # img/conf-name/speaker/file.jpg
 list:
   -
-    id: antonio-peric
-    description:
-    image: antonio-peric.png
-    first_name: Antonio
-    last_name: Peric
-    twitter: antonioperic
-  -
-    id: gary-hockin
-    description:
-    image: gary-hockin.png
-    first_name: Gary
-    last_name: Hockin
-    twitter: GeeH
-  -
-    id: graham-daniels
-    description:
-    image: graham-daniels.jpg
-    first_name: Graham
-    last_name: Daniels
-    twitter: greydnls
-  -
-    id: larry-garfield
-    description:
-    image: larry-garfield.jpg
-    first_name: Larry
-    last_name: Garfield
-    twitter: Crell
-  -
-    id: michelangelo-van-dam
-    description:
-    image: michelangelo-van-dam.jpg
-    first_name: Michelangelo
-    last_name: Van Dam
-    twitter: DragonBe
-  -
-    id: miro-svrtan
-    description:
-    image: miro-svrtan.png
-    first_name: Miro
-    last_name: Svrtan
-    twitter: msvrtan
-  -
-    id: rafael-dhohms
-    description:
-    image: rafael-dohms.png
-    first_name: Rafael
-    last_name: Dohms
-    twitter: rdohms
-  -
-    id: vasco-duarte
-    description:
-    image: vasco-duarte.png
-    first_name: Vasco
-    last_name: Duarte
-    twitter: duarte_vasco
+    id: michele-bertoli
+    description: facebook
+    image: michelebertoli.jpg
+    first_name: Michele
+    last_name: Bertoli
+    twitter: michelebertoli

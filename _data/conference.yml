@@ -1,11 +1,11 @@
-name: phpDay
-og_image: https://2017.phpday.it/img/themes/phpday/intro.png
-slug: phpday
-url: https://2017.phpday.it
-where_when: Verona, May 12th-13th 2017
+name: ReactJs Day
+og_image: http://2017.reactjsday.it/theme/img/background2.jpg
+slug: reactjsday
+url: https://2017.reactjsday.it
+where_when: Verona, October 6th 2017
 year: 2017
-since: 2012
-call_for_paper_url: http://cfp.phpday.it/
-call_for_paper: false
-talks_available: false
+since: 2015
+call_for_paper_url: https://docs.google.com/forms/d/e/1FAIpQLSd0xm7YP_ASTLYR10OVvvIIdvDiSGOXy48SCnyJbZiqvXQWvA/viewform
+call_for_paper: true
+talks_available: true
 schedule_available: false
