@@ -13,7 +13,7 @@
   @include modifier ('reactjsday') {
     background-color: $color-background-info;
     background-position: 50% 50%;
-    background-size: contain;
+    background-size: cover;
   }
 
   @include media ('<mobile-large') {
