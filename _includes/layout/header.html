@@ -15,12 +15,16 @@
         </a>
 
         <div class="header__menu-desktop">
-
           {% if site.data.conference.talks_available %}
             <a href="{{ site.baseurl }}/talks.html" class="button">
               Talks
             </a>
           {% endif %}
+          {% if site.data.conference.course_available %}
+            <a href="{{ site.baseurl }}/course.html" class="button">
+              Course
+            </a>
+          {% endif %}    
           {% if site.data.conference.schedule_available %}
             <a href="{{ site.baseurl }}/schedule.html" class="button">
               Schedule
