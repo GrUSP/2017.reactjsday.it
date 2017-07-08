@@ -1,9 +1,9 @@
 @include block ('speakers-title') {
-  margin-bottom: s(-12);
+  margin-bottom: s(-4);
   overflow: hidden;
   position: relative;
   text-align: center;
-  top: s(-12);
+  top: s(-4);
 
   @include media ('<desktop-small') {
     margin-bottom: 0;
