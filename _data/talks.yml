@@ -1,15 +1,23 @@
 -
   speaker_id: michele-bertoli
-  title: Griglie CSS - il futuro prossimo del layout
+  title: setState demystified
   keynote: false
   extract: >
-    Siamo partiti dalle tabelle. Abbiamo arrancato coi float. 
-    Stiamo respirando con flexbox. Ma per i nostri layout in CSS 
-    alle porte ci sono le griglie, abilitate di default in Chrome 
-    e Firefox da marzo 2017. Vedremo cosa ci riserva uno dei 
-    moduli CSS più sofisticati e flessibili di sempre, che promette 
-    di risolvere tutti i (o buona parte dei) nostri problemi di layout. 
-    Partendo da una panoramica generale delle funzionalità, vedremo 
-    qualche esempio, come affrontare il problema del fallback e del 
-    supporto a vecchie specifiche (IE, Edge), e gli strumenti per 
-    uno sviluppo semplice.
+    "Nobody knows how to do anything without Redux anymore. It's ridiculous."
+    - <a href="https://twitter.com/mjackson/status/745074910830067712" target="_blank">@mjackson</a><br> <br>
+    Let's fix it!
+-
+  speaker_id: javi-velasco
+  title: Styling Components for React UI Kits
+  keynote: false
+  extract: >
+    React is a wonderful tool to write reusable components but there is no clear definition on how a good API for
+    theming and customization should look like. There are too many approaches when it comes to styling, and
+    choosing one of those is a crucial decision, specially for vendor component libraries like
+    <a href="http://react-toolbox.com" target="_blank">http://react-toolbox.com/</a>. <br> <br>
+    In this talk we will go through some of the most important styling libraries, analyzing what should they
+    cover from the point of view of a library of components, and using React Toolbox as study case. We will
+    explore how customization and theming can be modeled for UI Kit projects with different tools. Finally,
+    we will see a simple technique that allows one to write components that are agnostic from styling, without
+    committing to an specific tool. This makes possible to switch between styling strategies over time and
+    experiment with them while keeping the same component implementation.
