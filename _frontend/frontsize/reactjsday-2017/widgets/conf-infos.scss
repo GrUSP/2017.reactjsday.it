@@ -39,6 +39,19 @@
     }
   }
 
+  @include element ('logos') {
+    margin-top: s(13);
+    text-align: center;
+
+    @include media ('<desktop-small') {
+      margin-top: 0;
+    }
+  }
+
+  @include element ('logo') {
+    padding: s(2);
+  }
+
   @include element ('column') {
     @include modifier ('right') {
       margin-top: s(12);
