@@ -1,0 +1,17 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+list:
+  -
+    id: michele-bertoli
+    description: facebook
+    image: michelebertoli.jpg
+    first_name: Michele
+    last_name: Bertoli
+    twitter: michelebertoli
+  -
+    id: javi-velasco
+    description: Audiense - React Toolbox
+    image: javivelasco.jpg
+    first_name: Javi
+    last_name: Velasco
+    twitter: javivelasco

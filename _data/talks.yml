@@ -1,0 +1,23 @@
+-
+  speaker_id: michele-bertoli
+  title: setState demystified
+  keynote: false
+  extract: >
+    "Nobody knows how to do anything without Redux anymore. It's ridiculous."
+    - <a href="https://twitter.com/mjackson/status/745074910830067712" target="_blank">@mjackson</a><br> <br>
+    Let's fix it!
+-
+  speaker_id: javi-velasco
+  title: Styling Components for React UI Kits
+  keynote: false
+  extract: >
+    React is a wonderful tool to write reusable components but there is no clear definition on how a good API for
+    theming and customization should look like. There are too many approaches when it comes to styling, and
+    choosing one of those is a crucial decision, specially for vendor component libraries like
+    <a href="http://react-toolbox.com" target="_blank">http://react-toolbox.com/</a>. <br> <br>
+    In this talk we will go through some of the most important styling libraries, analyzing what should they
+    cover from the point of view of a library of components, and using React Toolbox as study case. We will
+    explore how customization and theming can be modeled for UI Kit projects with different tools. Finally,
+    we will see a simple technique that allows one to write components that are agnostic from styling, without
+    committing to an specific tool. This makes possible to switch between styling strategies over time and
+    experiment with them while keeping the same component implementation.
