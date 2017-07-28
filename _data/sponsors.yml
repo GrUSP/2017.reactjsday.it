@@ -5,7 +5,7 @@
 pdf: grusp_2017.pdf
 call_for_sponsor: true
 
-main:
+#main:
 #  price: € 10,000
 #  offer:
 #    - 1 dedicated session (30 mins max)
@@ -20,41 +20,45 @@ main:
 #  max: 1
 #  list:
 
-diamond:
+main:
   price: € 5,000
   offer:
-    - 1 dedicated session (30 mins max)
+    - 1 dedicated session, 30 mins max (no commercial talks accepted)
+    - Advertisement in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollups in two rooms
-    - Stand (table 2m x 1m)
-    - Your own flyer and/or gadget in folder
-    - 2 free tickets
-    - 5 tickets with 20% discount
+    - Your own rollup in the conference room
+    - Main Stand (table 2m x 1m) in the room or in the hall
+    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 5 free tickets
   max: 1
   list:
+    -
+      url: https://www.accenture.com/it-it/new-applied-now
+      image: sponsor_accenture.svg
 
 platinum:
   price: € 3,000
   offer:
+    - Advertisement in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollup in one room (of your choice)
+    - Your own rollup in the conference room
     - Stand (table 1m x 1m)
-    - Your own flyer and/or gadget in folder
-    - 1 free ticket
-    - 5 tickets with 15% discount
-  max: 4
+    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 4 free ticket
+  max: 2
   list:
 
 gold:
   price: € 1,000
   offer:
+    - Advertisement in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollup in one room (chosen by the organization)
-    - Your own flyer and/or gadget in folder
-    - 3 tickets with 15% discount
+    - Your own rollup in the conference room
+    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 3 free tickets
   max: 8
   list:
     -
@@ -66,8 +70,8 @@ silver:
   offer:
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own flyer and/or gadget in folder (provided by you)
-    - 3 tickets with 10% discount
+    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 2 free tickets
   max: 4
   list:
     -
@@ -81,5 +85,5 @@ bronze:
   price: € 300
   offer:
     - Your logo on conference website
-    - 2 tickets with 10% discount
+    - 1 free ticket
   max: 8
