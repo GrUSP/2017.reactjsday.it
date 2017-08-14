@@ -64,6 +64,9 @@ gold:
     -
       url: https://www.workwave.com/
       image: sponsor_workwave.jpg
+    -
+      url: https://www.trueblue.it/
+      image: sponsor_trueblue.svg
 
 silver:
   price: € 500
@@ -74,6 +77,9 @@ silver:
     - 2 free tickets
   max: 4
   list:
+    -
+      url: https://labs.madisoft.it/?utm_source=reactjsday
+      image: sponsor_madisoft.svg
     -
       url: http://www.ideato.it?utm_source=reactjsday
       image: ideato.svg
