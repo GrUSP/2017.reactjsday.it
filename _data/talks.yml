@@ -7,6 +7,14 @@
     - <a href="https://twitter.com/mjackson/status/745074910830067712" target="_blank">@mjackson</a><br> <br>
     Let's fix it!
 -
+  speaker_id: olena-sovyn
+  title: On the way to making the React components more reusable
+  keynote: false
+  extract: >
+    One of the main ideas of the react components is their reusability, but when it comes to the real projects we often
+    see a lot of the “hard coded” components. Why is this happening? And even more important, how can we change this by
+    using the latest tools (like React-storybook project) and understanding of the classical JavaScript design patterns?
+-
   speaker_id: javi-velasco
   title: Styling Components for React UI Kits
   keynote: false

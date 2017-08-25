@@ -15,3 +15,10 @@ list:
     first_name: Javi
     last_name: Velasco
     twitter: javivelasco
+  -
+    id: olena-sovyn
+    description: WebFlow
+    image: olenasovyn.jpg
+    first_name: Olena
+    last_name: Sovyn
+    twitter: frontendgirl
