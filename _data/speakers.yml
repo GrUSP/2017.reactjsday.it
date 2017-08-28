@@ -22,3 +22,24 @@ list:
     first_name: Olena
     last_name: Sovyn
     twitter: frontendgirl
+  -
+    id: tomasz-lakomy
+    description: Egnyte
+    image: tomaszlakomy.jpg
+    first_name: Tomasz
+    last_name: Łakomy
+    twitter: tlakomy
+  -
+    id: narendra-shetty
+    description: Booking.com
+    image: narendrashetty.png
+    first_name: Narendra
+    last_name: Shetty
+    twitter: narendra_shetty
+  -
+    id: mariano-vazquez
+    description: MuleSoft
+    image: marianovazquez.jpg
+    first_name: Mariano
+    last_name: Vazquez
+    twitter: nanovazquez87

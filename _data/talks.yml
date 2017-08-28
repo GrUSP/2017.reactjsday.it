@@ -29,3 +29,37 @@
     we will see a simple technique that allows one to write components that are agnostic from styling, without
     committing to an specific tool. This makes possible to switch between styling strategies over time and
     experiment with them while keeping the same component implementation.
+-
+  speaker_id: tomasz-lakomy
+  title: Introduction to ReactVR - because 2D is not good enough!
+  keynote: false
+  extract: >
+    In this talk we're going to take a look at ReactVR, an experimental library for building VR websites and interactive
+    360 experiences with React. Even though it's still in early development, we will take a look of what might be
+    possible with future VR browser experiences (live demo included!).
+
+-
+  speaker_id: narendra-shetty
+  title: Shared Element Transition with React Native
+  keynote: false
+  extract: >
+    I will be talking about how to achieve Shared Element Transition with React Native for both iOS and Android.
+    <br />
+    Will explain the advantages of having a smooth continuous experience.
+    <br />
+    And since React Native doesn’t support true shared elements, I will explain how we can achieve this with a clever
+    trick of smoke and mirror.
+
+-
+  speaker_id: mariano-vazquez
+  title: Why you should (not) build a reusable components library for your company
+  keynote: false
+  extract: >
+    Everything starts with a good idea, but it takes a lot of work to make it shine. And when you do it, and people
+    start using it, you feel the need to take it to the next level. And the next one, and so on, maintaining at the same
+    time what it’s working in production.
+    <br />
+    During this talk, we will talk about the experience, lessons learnt and good (and bad) ideas of designing a reusable
+    components library with React, that led us to redefine the entire UI development process and front-end architecture
+    @ MuleSoft.
+
