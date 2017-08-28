@@ -63,3 +63,43 @@
     components library with React, that led us to redefine the entire UI development process and front-end architecture
     @ MuleSoft.
 
+
+-
+  speaker_id: kristijan-ristovski
+  title: React state management in a GraphQL era
+  keynote: false
+  extract: >
+    In this talk, we're going to explore the evolution of making a SPA with React. We're going to start with React's
+    built-in setState, how it is complicated to maintain at scale, especially when it comes to sharing state and fetching
+    data.
+    <br />
+    External state management apps like Redux and MobX can definitely help with this problem, especially when the data
+    is fetched from a REST endpoint.
+    <br />
+    We're going to spend most of the time on the main point: Now that we're using GraphQL to take care of data management,
+    is an external state management library even needed? Can Apollo coexist with Redux or MobX? What about server-side
+    rendering and Next.js? What are the pros and cons of each combination?
+    <br />
+    We'll find out what's the best way to approach this in 2017.
+
+-
+  speaker_id: katarzyna-jastrzebska
+  title: Build Your React Application with StyledComponents and FlexBox
+  keynote: false
+  extract: >
+    StyledComponents is a new approach for building presentational components without any css preprocessors and with
+    power of javascript. I would like to present example of building application based on styledcomponents with reused
+    grid system built on FlexBox.
+
+
+-
+  speaker_id: massimiliano-mantione
+  title: If it quacks like React and renders like React, is it React?
+  keynote: false
+  extract: >
+    React took the web development community by storm with its great success. Now there are also several
+    "React replacement" libraries, which keep API compatibility but promise to be "better" in several ways
+    (generally speed and code size), and some of them have been used in high-profile projects instead of the
+    "original" React. And, last but not least, Facebook itself is rewriting the React internals, making the
+    fiber-based version 16 a de-facto "API-compatible reimplementation". In this talk we'll see why these different
+    implementation exist, how they differ from each other, and which one you should pick for your next project.

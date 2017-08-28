@@ -3,7 +3,7 @@
 list:
   -
     id: michele-bertoli
-    description: facebook
+    description: Facebook
     image: michelebertoli.jpg
     first_name: Michele
     last_name: Bertoli
@@ -43,3 +43,24 @@ list:
     first_name: Mariano
     last_name: Vazquez
     twitter: nanovazquez87
+  -
+    id: kristijan-ristovski
+    description: ReactAcademy
+    image: kristijanristovski.jpg
+    first_name: Kristijan
+    last_name: Ristovski
+    twitter: thekitze
+  -
+    id: katarzyna-jastrzebska
+    description: Sincos Software
+    image: katarzynajastrzebska.jpg
+    first_name: Katarzyna
+    last_name: Jastrzębska
+    twitter: kejt_bw
+  -
+    id: massimiliano-mantione
+    description: Hyperfair
+    image: massimilianomantione.jpg
+    first_name: Massimiliano
+    last_name: Mantione
+    twitter: m_a_s_s_i
