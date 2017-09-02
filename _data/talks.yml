@@ -104,6 +104,7 @@
     fiber-based version 16 a de-facto "API-compatible reimplementation". In this talk we'll see why these different
     implementation exist, how they differ from each other, and which one you should pick for your next project.
 
+
 -
   speaker_id: erik-wendel
   title: Introduction To Elm For React Developers
@@ -123,3 +124,16 @@
     This talk is not aimed at experienced functional programmers coming from languages such as Haskell, but rather
     JavaScript developers seeking a more functional approach in their daily work. It serves both as a introduction to
     Elm and typed, ML-style functional programming.
+
+
+-
+  speaker_id: norbert-delangen
+  title: The story of storybook
+  keynote: false
+  extract: >
+    Storybook is a tool for developing ui components in isolation. And it's also for documentation and testing.
+
+    I'd like to give you an overview of the stack that makes up storybook.
+
+    But also I want to talk about what it's like maintaining a project like this.
+    How did we go from 0 maintainers to 20+ and what were the lessons learned?
