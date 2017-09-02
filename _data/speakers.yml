@@ -71,3 +71,10 @@ list:
     first_name: Erik
     last_name: Wendel
     twitter: ewndl
+  -
+    id: norbert-delangen
+    description: Xebia - Storybook
+    image: norbertdelangen.jpg
+    first_name: Norbert
+    last_name: de Langen
+    twitter: NorbertdeLangen
