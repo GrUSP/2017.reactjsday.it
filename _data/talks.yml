@@ -103,3 +103,23 @@
     "original" React. And, last but not least, Facebook itself is rewriting the React internals, making the
     fiber-based version 16 a de-facto "API-compatible reimplementation". In this talk we'll see why these different
     implementation exist, how they differ from each other, and which one you should pick for your next project.
+
+-
+  speaker_id: erik-wendel
+  title: Introduction To Elm For React Developers
+  keynote: false
+  extract: >
+    In times where a jungle of JavaScript frameworks wants to solve every conceivable problem in web app development,
+    creating headaches and javascript fatigue in the process, Elm offers a different approach.
+
+    Elm is a functional programming language that you can use instead of JavaScript — or alongside it.
+    It builds on the concepts virtual dom and unidirectional data flow popularized by React and Redux, but with a
+    sound typesystem, built-in immutability, and an amazing compiler that catches errors before you even run your code.
+    Simply put, Elm is a great language that will make your backend team jealous. 
+
+    In this talk you'll see how Elm works and learn how to use it to build a web app. I will emphasize the advantages
+    and disadvantages it brings compared to React with Redux (my current JS favourite).
+
+    This talk is not aimed at experienced functional programmers coming from languages such as Haskell, but rather
+    JavaScript developers seeking a more functional approach in their daily work. It serves both as a introduction to
+    Elm and typed, ML-style functional programming.
