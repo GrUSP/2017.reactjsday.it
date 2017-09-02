@@ -64,3 +64,10 @@ list:
     first_name: Massimiliano
     last_name: Mantione
     twitter: m_a_s_s_i
+  -
+    id: erik-wendel
+    description: BEKK
+    image: erikwendel.jpg
+    first_name: Erik
+    last_name: Wendel
+    twitter: ewndl
