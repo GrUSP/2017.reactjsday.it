@@ -34,9 +34,10 @@
   title: Introduction to ReactVR - because 2D is not good enough!
   keynote: false
   extract: >
-    In this talk we're going to take a look at ReactVR, an experimental library for building VR websites and interactive
-    360 experiences with React. Even though it's still in early development, we will take a look of what might be
-    possible with future VR browser experiences (live demo included!).
+    It's time to leave the 2D world of a browser window and venture into the world of VR JavaScript applications.
+    During the talk we'll see how to make great VR experiences using just your browser and a bit of JS. We're going to
+    explore the virtual world using one of the most popular JavaScript-based VR libraries: React-VR, along with live
+    demos so we can see it in action!
 
 -
   speaker_id: narendra-shetty
