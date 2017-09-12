@@ -6,6 +6,7 @@
     "Nobody knows how to do anything without Redux anymore. It's ridiculous."
     - <a href="https://twitter.com/mjackson/status/745074910830067712" target="_blank">@mjackson</a><br> <br>
     Let's fix it!
+
 -
   speaker_id: olena-sovyn
   title: On the way to making the React components more reusable
@@ -14,6 +15,7 @@
     One of the main ideas of the react components is their reusability, but when it comes to the real projects we often
     see a lot of the “hard coded” components. Why is this happening? And even more important, how can we change this by
     using the latest tools (like React-storybook project) and understanding of the classical JavaScript design patterns?
+
 -
   speaker_id: javi-velasco
   title: Styling Components for React UI Kits
@@ -29,6 +31,16 @@
     we will see a simple technique that allows one to write components that are agnostic from styling, without
     committing to an specific tool. This makes possible to switch between styling strategies over time and
     experiment with them while keeping the same component implementation.
+
+-
+  speaker_id:
+   - michel-weststrate
+   - mattia-manzati
+  title: Title
+  keynote: false
+  extract: >
+    Abstract
+
 -
   speaker_id: tomasz-lakomy
   title: Introduction to ReactVR - because 2D is not good enough!
@@ -64,7 +76,6 @@
     components library with React, that led us to redefine the entire UI development process and front-end architecture
     @ MuleSoft.
 
-
 -
   speaker_id: kristijan-ristovski
   title: React state management in a GraphQL era
@@ -92,7 +103,6 @@
     power of javascript. I would like to present example of building application based on styledcomponents with reused
     grid system built on FlexBox.
 
-
 -
   speaker_id: massimiliano-mantione
   title: If it quacks like React and renders like React, is it React?
@@ -104,7 +114,6 @@
     "original" React. And, last but not least, Facebook itself is rewriting the React internals, making the
     fiber-based version 16 a de-facto "API-compatible reimplementation". In this talk we'll see why these different
     implementation exist, how they differ from each other, and which one you should pick for your next project.
-
 
 -
   speaker_id: erik-wendel
@@ -125,7 +134,6 @@
     This talk is not aimed at experienced functional programmers coming from languages such as Haskell, but rather
     JavaScript developers seeking a more functional approach in their daily work. It serves both as a introduction to
     Elm and typed, ML-style functional programming.
-
 
 -
   speaker_id: norbert-delangen
