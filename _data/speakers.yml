@@ -78,3 +78,17 @@ list:
     first_name: Norbert
     last_name: de Langen
     twitter: NorbertdeLangen
+  -
+    id: michel-weststrate
+    description: Mendix - MobX
+    image: michelweststrate.jpg
+    first_name: Michel
+    last_name: Weststrate
+    twitter: mweststrate
+  -
+    id: mattia-manzati
+    description: ""
+    image: mattiamanzati.jpg
+    first_name: Mattia
+    last_name: Manzati
+    twitter: MattiaManzati
