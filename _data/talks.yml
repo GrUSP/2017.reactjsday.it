@@ -36,10 +36,12 @@
   speaker_id:
    - michel-weststrate
    - mattia-manzati
-  title: Title
+  title: Mutable or Immutable? Why not both!
   keynote: false
   extract: >
-    Abstract
+    MobX or Redux? Mutable or Immutable? Why not do both? Lets discover together MobX-State-Tree, an ongoing experiment
+    to create an opinionated state management library that mixes mutable and immutable, OOP and functional programming,
+    Redux and MobX
 
 -
   speaker_id: tomasz-lakomy
