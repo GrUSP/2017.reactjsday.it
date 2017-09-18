@@ -75,7 +75,7 @@ silver:
     - Your logo on conference rollups
     - Bring your own gadgets (flyers, stickers, t-shirts)
     - 2 free tickets
-  max: 4
+  max: 16
   list:
     -
       url: https://labs.madisoft.it/?utm_source=reactjsday
@@ -92,4 +92,8 @@ bronze:
   offer:
     - Your logo on conference website
     - 1 free ticket
-  max: 8
+  max: 32
+  list:
+    -
+      url: https://xebia.com/
+      image: sponsor_xebia.svg
