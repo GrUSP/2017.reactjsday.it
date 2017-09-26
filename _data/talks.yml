@@ -1,7 +1,7 @@
 -
   speaker_id: michele-bertoli
   title: setState demystified
-  keynote: false
+  keynote: true
   extract: >
     "Nobody knows how to do anything without Redux anymore. It's ridiculous."
     - <a href="https://twitter.com/mjackson/status/745074910830067712" target="_blank">@mjackson</a><br> <br>
@@ -154,7 +154,9 @@
   speaker_id:
    - michel-weststrate
    - mattia-manzati
-  title: Title
+  title: Mutable or Immutable? Why not both!
   keynote: false
   extract: >
-    Abstract
+    MobX or Redux? Mutable or Immutable? Why not do both? Let's discover together MobX-State-Tree, an ongoing experiment
+    to create an opinionated state management library that mixes mutable and immutable, OOP and functional programming,
+    Redux and MobX
