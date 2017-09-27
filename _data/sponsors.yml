@@ -62,6 +62,9 @@ gold:
   max: 8
   list:
     -
+      url: https://www.linkedin.com/jobs/view/451990318/
+      image: sponsor_docsity.svg
+    -
       url: https://www.workwave.com/
       image: sponsor_workwave.jpg
     -
@@ -94,6 +97,9 @@ bronze:
     - 1 free ticket
   max: 32
   list:
+    -
+      url: https://www.egnyte.com/
+      image: sponsor_egnyte.svg
     -
       url: https://xebia.com/
       image: sponsor_xebia.svg
