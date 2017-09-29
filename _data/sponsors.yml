@@ -49,6 +49,9 @@ platinum:
     - 4 free ticket
   max: 2
   list:
+    -
+      url: https://www.workwave.com/
+      image: sponsor_workwave.svg
 
 gold:
   price: € 1,000
@@ -62,14 +65,11 @@ gold:
   max: 8
   list:
     -
-      url: https://www.linkedin.com/jobs/view/451990318/
-      image: sponsor_docsity.svg
-    -
-      url: https://www.workwave.com/
-      image: sponsor_workwave.jpg
-    -
       url: https://www.trueblue.it/
       image: sponsor_trueblue.svg
+    -
+      url: https://www.linkedin.com/jobs/view/451990318/
+      image: sponsor_docsity.svg
 
 silver:
   price: € 500
