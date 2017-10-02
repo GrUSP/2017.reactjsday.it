@@ -148,15 +148,3 @@
 
     But also I want to talk about what it's like maintaining a project like this.
     How did we go from 0 maintainers to 20+ and what were the lessons learned?
-
-
--
-  speaker_id:
-   - michel-weststrate
-   - mattia-manzati
-  title: Mutable or Immutable? Why not both!
-  keynote: false
-  extract: >
-    MobX or Redux? Mutable or Immutable? Why not do both? Let's discover together MobX-State-Tree, an ongoing experiment
-    to create an opinionated state management library that mixes mutable and immutable, OOP and functional programming,
-    Redux and MobX
